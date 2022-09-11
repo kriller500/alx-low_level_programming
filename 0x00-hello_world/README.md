@@ -5,3 +5,4 @@
 4-puts.c outputs exactly Programming is like building a multilingual puzzle
 4-puts.prints output using puts
 5-printf.c prints output using printf
+6-size.c prints size of various types on the computer being compiled
