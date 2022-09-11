@@ -6,3 +6,4 @@
 4-puts.prints output using puts
 5-printf.c prints output using printf
 6-size.c prints size of various types on the computer being compiled
+100-intel generates assembly code and saves it as as output
