@@ -2,3 +2,4 @@
 1-compiler compiling cfile without linking
 2-Assembler generates assembly code and outputs in a file
 3-name compiles and outputs an executable
+4-puts.c outputs exactly Programming is like building a multilingual puzzle
