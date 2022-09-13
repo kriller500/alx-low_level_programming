@@ -5,7 +5,7 @@
  * Return: Always zero (Success)
  *
  */
-	int main(void)
+	int main()
 {
 	/* this program prints characters*/
 
