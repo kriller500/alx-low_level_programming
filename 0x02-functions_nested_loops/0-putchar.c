@@ -1,11 +1,18 @@
-#include <stdio.h>
+#include <main.h>
 
-int main() 
+/**
+ * main - Entry point
+ * Return: Always zero (Success)
+ *
+ */
+	int main(void)
 {
-	/*Write C code here*/
-	 int ch;
+	/* this program prints characters*/
+
+	int ch;
+
 	putchar(ch);
-	ch ='_';
+	ch = '_';
 	putchar(ch);
 	ch = 'p';
 	putchar(ch);
@@ -22,5 +29,6 @@ int main()
 	ch = 'r';
 	putchar(ch);
 	putchar ('\n');
-	return 0;
+	/*return 0: always*/
+	return (0);
 }
