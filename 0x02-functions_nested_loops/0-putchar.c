@@ -1,34 +1,22 @@
-#include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 
 /**
  * main - Entry point
  * Return: Always zero (Success)
  *
  */
-	int main()
+	int main(void)
 {
 	/* this program prints characters*/
 
-	int ch;
+	char word[8] = "_putchar";
+	int i;
 
-	putchar(ch);
-	ch = '_';
-	putchar(ch);
-	ch = 'p';
-	putchar(ch);
-	ch = 'u';
-	putchar(ch);
-	ch = 't';
-	putchar(ch);
-	ch = 'c';
-	putchar(ch);
-	ch = 'h';
-	putchar(ch);
-	ch = 'a';
-	putchar(ch);
-	ch = 'r';
-	putchar(ch);
-	putchar ('\n');
+	for (i=0; i<8; i++)
+		_putchar(word[i]);
+	_putchar('\n');
+	
 	/*return 0: always*/
 	return (0);
 }
